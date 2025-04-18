@@ -1,1 +1,3 @@
-# llm
+This is a serial demos of llm,include prompt/langchain/llamaindex....
+
+update 2 times per week at least
