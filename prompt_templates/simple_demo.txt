@@ -1,0 +1,8 @@
+# 目标
+{instruction}
+
+# 输出格式
+{output_format}
+
+# 用户输入
+{input_text}
