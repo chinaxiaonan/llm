@@ -70,7 +70,7 @@ output_format = """
 
 
 # 2. 从文件中读取模板构建prompt 在demo_simple.txt中定义了prompt的简单格式，包括目标，输出格式，用户输入
-with open('prompt_templates/simple_demo.txt', 'r', encoding='utf-8') as file:
+with open('../prompt_templates/simple_demo.txt', 'r', encoding='utf-8') as file:
     prompt_template = file.read()
 prompt = prompt_template.replace("{instruction}", instruction).replace("{input_text}", input_text)  # 使用.replace()方法，适用于简单替换
 
